@@ -23,7 +23,7 @@ $all_functions = array(
 		"about-us",
 	),
 	"ajax" => array(
-		"",
+		"track_new_user",
 	)
 );
 if($_REQUEST["request"] == "page")
@@ -109,5 +109,9 @@ if($_POST["request"] == "ajax")
 
 class ajax_request
 {
+	function track_new_user()
+	{
+		echo json_encode(array("status" => true, "data" => generate_session_id(array("url" => $_POST["url"], "referer" => $_POST["referer"]))));
+	}
 }
 ?>
