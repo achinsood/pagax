@@ -11,7 +11,6 @@
 <script type="text/javascript" language="javascript" src="//cdn.ckeditor.com/4.4.7/standard/ckeditor.js"></script>
 <script type="text/javascript" language="javascript" src="<?php echo dir; ?>javascript/analytics.min.js"></script>
 <script type="text/javascript" language="javascript" src="<?php echo dir; ?>javascript/javascript.min.js"></script>
-<script type="text/javascript" language="javascript" src="<?php echo dir; ?>javascript/respond.js"></script>
 </head>
 <body>
 <div style="float:left; width:100%; overflow-x:hidden;">
