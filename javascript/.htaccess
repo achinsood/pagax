@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule javascript.min.js      javascript.min.php [L]
+RewriteRule analytics.min.js      analytics.min.php [L]
